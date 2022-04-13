@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    #heading{
+        width: 100%;
+        height: 5vw;
+        background-color: #131a27;
+        color: white;
+        border-radius: 50vw;
+    }
+    h1{
+        margin-left: 32%;
+        padding-top: 1vw;
+    }
+    #container{
+        display: flex;
+    }
+    .rec{
+        /* border: 1px solid red; */
+        height: 2vw;
+        width: 15vw;
+        color: wheat;
+        margin-left: 3vw;
+        /* margin-top: 5vw; */
+        background-color:maroon;
+        border-radius: 1vw;
+        text-align: center;
+        padding: 0.3vw;
+        box-sizing: border-box;
+    }
+    .div{
+        margin-top: 2vw;
+        width: 50vw;
+        margin-left: 25%;
+        /* border: 1px solid red; */
+        display: flex;
+        padding: 2vw;
+        box-sizing: border-box;
+        
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .div1{
+        /* margin-left: 30%; */
+        width: 30vw;
+        margin-left: 3vw;
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+    form{
+        margin-left: 35%;
+        margin-top: 2vw;
+    }
+    #name{
+        width: 15vw;
+        height: 2vw;
+        border-radius: 0.5vw;
+        border-color: seagreen;
+        margin-right: 2vw;
+    }
+    #submit{
+        padding: 0.7vw 4vw 0.7vw 4vw;
+        background-color: #0a79af;
+        color: white;
+        border: none;
+        border-radius: 0.5vw;
+}
+#gif {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  transform: translate(-40%, -40%);
+  /* display: none; */
+}
+</style>
+<body>
+    
+    <div id="heading" ><h1>!! Search for your favrouite movies !!</h1></div>
+    <form onsubmit="showmovie()">
+        <input id="name"  placeholder="Search for movie" />
+        <input id="submit" type="submit"/>
+    </form>
+    <div id="container">
+       
+    </div>
+    
+    
+</body>
+</html>
+<script src="./index.js"></script>
